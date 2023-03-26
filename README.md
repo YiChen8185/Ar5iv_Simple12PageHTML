@@ -1,7 +1,7 @@
 # ArXiv_Simple12PageHTML
 
 ## Project Description
-This project is built with Spark build version 12 and consists of 12 HTML pages that are connected through the "Next Page" link at the bottom of each page. Additionally, there is a breadcrumb navigation menu at the top of each page to allow users to easily navigate between the pages.
+This project is built with Spark build consists of 12 HTML pages that are connected through the "Next Page" link at the bottom of each page. Additionally, there is a breadcrumb navigation menu at the top of each page to allow users to easily navigate between the pages.
 
 This is just simple 12 html for develop related css and js code.
 
