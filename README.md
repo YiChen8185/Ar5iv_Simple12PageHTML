@@ -5,7 +5,7 @@ This project is built with Spark build consists of 12 HTML pages that are connec
 
 This is just simple 12 html for develop related css and js code.
 
-## Features
+## Special Function
 Easy to change page's name: *When you want to change the name of the page_title. You can in app.py dic page_titles.*
 
 ## Usage
