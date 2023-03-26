@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+  </head>
+  <body>
+    <nav class="breadcrumb">
+      <ul>
+        <li><a href="{{ url_for('page1') }}">Page1</a></li>
+        <li><a href="{{ url_for('page2') }}">Page2</a></li>
+        <li><a href="{{ url_for('page3') }}">Page3</a></li>
+        <li><a href="{{ url_for('page4') }}">Page4</a></li>
+        <li><a href="{{ url_for('page5') }}">Page5</a></li>
+        <li><a href="{{ url_for('page6') }}">Page6</a></li>
+        <li><a href="{{ url_for('page7') }}">Page7</a></li>
+        <li><a href="{{ url_for('page8') }}">Page8</a></li>
+        <li><a href="{{ url_for('page9') }}">Page9</a></li>
+        <li><a href="{{ url_for('page11') }}">Page11</a></li>
+        <li class="current-page">{{ page_title }}</li>
+      </ul>
+    </nav>
+    <div class="content">
+      <p>12</p>
+      <p>Test, Test, Test. Test, Test, Test. Test, Test, Test.</p>
+      <p>Test, Test, Test. Test, Test, Test. Test, Test, Test.</p>
+      <p>Test, Test, Test. Test, Test, Test. Test, Test, Test.</p>
+      <p>Test, Test, Test. Test, Test, Test. Test, Test, Test.</p>
+      <p>Test, Test, Test. Test, Test, Test. Test, Test, Test.</p>
+      <p>Test, Test, Test. Test, Test, Test. Test, Test, Test.</p>
+    </div>
+  </body>
+</html>
