@@ -9,6 +9,7 @@ This is just simple 12 html for develop related css and js code.
 
 ## Usage
 Run: python3 app.py (it should auto run on http://127.0.0.1:5000)
+
 Exit: control + c
 
 ## Extra Information.
